@@ -2,7 +2,7 @@
 
 Repositório criado para os códigos do Processo Seletivo da Crossbots 2022 para a área de programação. 
 
-## Implantação
+## Implementação
 
 Todos os códigos foram implementados em linguagem C. 
 
