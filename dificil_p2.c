@@ -202,6 +202,12 @@ char verificaCavalo(char tabuleiro[8][8], int i, int j, char r)
     return 0;
 }
 
+/**
+ * verificaCheque: percorre o tabuleiro até encontrar um rei e chama outras funções
+ * para verificar todas as possibilidades que colocam o rei em cheque
+ * retornando qual rei está em cheque ou nenum
+ * @param char tabuleiro[8][8]
+ */
 char verificaCheque(char tabuleiro[8][8])
 {
     char rei_cheque = 0;
