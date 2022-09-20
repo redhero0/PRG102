@@ -7,7 +7,7 @@
 int perfeito(int x)
 {
     int soma = 0;
-    for (int i=1; i<x; i++) 
+    for (int i=1; i<=x/2; i++) 
     {
         if(x%i == 0) // verifica se é divisivel por i
             soma +=i; // incrementa em soma os divisores
@@ -20,6 +20,6 @@ int perfeito(int x)
 
 int main()
 {
-   printf("%d\n", perfeito(28));
+   printf("%d\n", perfeito(6));
    return 0;
 }
